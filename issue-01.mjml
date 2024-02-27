@@ -1,0 +1,436 @@
+<mjml>
+  <mj-head>
+    <mj-title>Swift on Server Newsletter</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px
+      11px 0px rgba(0, 0, 0, 0.15); }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link, a { text-decoration: none; color: inherit; }
+    </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section full-width="full-width" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image
+          src="https://swiftonserver.com/images/logos/logo.png"
+          width="100px"
+          alt="Swift on Server Logo"
+          padding="0"
+          href="https://swiftonserver.com"
+          padding-bottom="20px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5856D7">
+      <mj-column padding="20px">
+        <mj-text color="#ffffff" font-size="32px" align="center">
+          Swift on Server
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section
+        background-color="#fcfcfc"
+        padding-left="15px"
+        padding-right="15px"
+      >
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Some introduction text. Used initially by Tibor to address current
+            sign-ups.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="TODO">SSWG Update for 2024</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The SSWG has posted it's yearly update post on
+            <a href="TODO">swift.org</a>. In this post you'll find an overview
+            of what's happened in 2023, and what's to come in 2024. Dive in and
+            discover
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="TODO">What's new in Hummingbird 2?</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The Hummingbird web-framework has undergone a big makeover! It's
+            been released in an pre-release stage for a couple months now. This
+            re-write of the framework aims to embrace structured concurrency,
+            and is completely ready for Swift 6. This article shows you what's
+            changed!
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#ff0095"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="TODO">Swift Server Conference Announced</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            This week, Tim Condon announced that a new edition of the
+            <a href="https://serversideswift.info"
+              >Server-Side Swift Conference</a
+            >. It's set to take place in the London Science Museum, and is due
+            September 26 &amp; 27 of this year.
+          </mj-text>
+
+          <mj-text
+            color="#ff0095"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="TODO">Online Swift Server Meetups</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The SSWG is planning the first online community meetup. It's set to
+            take place at [DATE AND TIME]. The meetup is expected to continue
+            quarterly going forward.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#ff9500"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/apple/swift-evolution/blob/main/proposals/0417-task-executor-preference.md"
+              >Evolution: Task Executor Preferences</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Task executor preferences has been accepted in Swift Evolution! This
+            new proposal allows frameworks such as Vapor and Hummingbird to run
+            request handlers on a EventLoop. This allows for further performance
+            optimisations across the ecosystem.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text color="#637381" font-size="12px" align="center">
+            <a href="https://unbeatable.software">Joannis Orlandos</a> &amp;
+            <a href="https://binarybirds.com">Tibor Bödecs</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-text
+            color="#445566"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+          >
+            You are receiving this email newsletter because you registered with
+            the
+            <a class="footer-link" href="https://swiftonserver.com"
+              >swiftonserver.com</a
+            >
+            newsletter. <br />
+            (previously
+            <a class="footer-link" href="https://theswiftdev.com"
+              >theswiftdev.com</a
+            >
+            newsletter)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="100%" padding-right="0">
+            <mj-text
+              color="#445566"
+              font-size="11px"
+              align="center"
+              line-height="16px"
+              font-weight="bold"
+            >
+              <u
+                ><a
+                  class="footer-link"
+                  href="https://swiftonserver.com/newsletter/unsubscribe"
+                  >Unsubscribe</a
+                ></u
+              >
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
+<mjml>
+  <mj-head>
+    <mj-title>Swift on Server Newsletter</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px
+      11px 0px rgba(0, 0, 0, 0.15); }
+    </mj-style>
+    <mj-style inline="inline"> .text-link, a { color: inherit; } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section full-width="full-width" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image
+          src="https://swiftonserver.com/images/logos/logo.png"
+          width="100px"
+          alt="Swift on Server Logo"
+          padding="0"
+          href="https://swiftonserver.com"
+          padding-bottom="20px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5856D7">
+      <mj-column padding="20px">
+        <mj-text color="#ffffff" font-size="32px" align="center">
+          Swift on Server
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section
+        background-color="#fcfcfc"
+        padding-left="15px"
+        padding-right="15px"
+      >
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Some introduction text. Used initially by Tibor to address current
+            sign-ups.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://swiftonserver.com/whats-new-in-hummingbird-2/"
+              >What's new in Hummingbird 2?</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The Hummingbird web-framework has undergone a big makeover! It's
+            been released in an pre-release stage for a couple months now. This
+            re-write of the framework aims to embrace structured concurrency,
+            and is completely ready for Swift 6. This article shows you what's
+            changed!
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://swiftpackageindex.com/lovetodream/oracle-nio"
+              >OracleNIO Driver Pitched</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <a href="https://github.com/lovetodream">Timo Zacherl</a> has
+            recently pitches their
+            <a href="https://swiftpackageindex.com/lovetodream/oracle-nio"
+              >Oracle Database Driver</a
+            >
+            for incubation with the SSWG. Support for this database has been
+            notoriously lacking, leaving many enterprise organisations unable to
+            implement Server-Side Swift while keeping their preferred database.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#ff0095"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://www.serversideswift.info/"
+              >Swift Server Conference Announced!</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            This week, Tim Condon
+            <a
+              href="https://twitter.com/SwiftServerConf/status/1762188533425422638"
+              >announced</a
+            >
+            that a new edition of the Server-Side Swift Conference. It's set to
+            take place in the London Science Museum, and is due September 26
+            &amp; 27 of this year. We're excited to meet the community there.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#ff9500"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/apple/swift-evolution/blob/main/proposals/0417-task-executor-preference.md"
+              >Evolution: Task Executor Preferences</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Task executor preferences has been accepted in Swift Evolution! This
+            new proposal allows frameworks such as Vapor and Hummingbird to run
+            request handlers on a specific EventLoop. This allows for further
+            performance optimisations across the ecosystem.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#00aa95"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://swiftpackageindex.com/soto-project/soto"
+              >Package Highlight: Soto</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            If you're using Swift on AWS, you probably already know this
+            package! It's a great Swift SDK for anyone who needs to use one of
+            AWS' many services, and pairs well with the
+            <a href="(https://github.com/swift-server/swift-aws-lambda-runtime"
+              >Swift AWS Lambda Runtime</a
+            >.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text color="#637381" font-size="12px" align="center">
+            <a href="https://unbeatable.software">Joannis Orlandos</a> &amp;
+            <a href="https://binarybirds.com">Tibor Bödecs</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-text
+            color="#445566"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+          >
+            You are receiving this email newsletter because you registered with
+            the
+            <a class="footer-link" href="https://swiftonserver.com"
+              >swiftonserver.com</a
+            >
+            newsletter. <br />
+            (previously
+            <a class="footer-link" href="https://theswiftdev.com"
+              >theswiftdev.com</a
+            >
+            newsletter)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="100%" padding-right="0">
+            <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
+              <u><a class="footer-link" href="https://swiftonserver.com/newsletter/unsubscribe">Unsubscribe</a></u>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>-->
+    </mj-wrapper>
+  </mj-body>
+</mjml>
