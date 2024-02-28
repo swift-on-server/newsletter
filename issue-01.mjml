@@ -74,7 +74,7 @@
             The Hummingbird web-framework has undergone a big makeover! It's
             been released in an pre-release stage for a couple months now. This
             re-write of the framework aims to embrace structured concurrency,
-            and is completely ready for Swift 6. This article shows you what's
+            and is completely ready for <a href="https://forums.swift.org/t/swift-6-0-release-process/70220">Swift 6</a>. This article shows you what's
             changed!
           </mj-text>
 
