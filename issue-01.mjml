@@ -52,8 +52,13 @@
       >
         <mj-column width="100%">
           <mj-text color="#637381" font-size="16px">
-            Some introduction text. Used initially by Tibor to address current
-            sign-ups.
+            Dear subscriber,<br />
+            <br />
+            I'm excited to announce an update to your newsletter subscription. You're now subscribed to <a href="https://swiftonserver.com">swiftonserver.com</a>, replacing the original <a href="https://theswiftdev.com">theswiftdev.com</a> newsletter.<br />
+            <br />
+            Our brand new newsletter is tailored to provide you with the latest updates and insights about server-side Swift development. If you wish to opt out, simply click the unsubscribe link at the bottom of any email. <br />
+            <br />
+            Thank you for being a valued member of our community. If you have any questions or concerns regarding this update or anything else, please don't hesitate to reach out to us. We appreciate your continued support and look forward to keeping you informed and engaged with the swiftonserver.com newsletter.
           </mj-text>
 
           <mj-divider
@@ -84,7 +89,7 @@
             font-size="20px"
             padding-bottom="0"
           >
-            <a href="https://swiftpackageindex.com/lovetodream/oracle-nio">SSWG Update for 2024</a>
+            <a href="https://swiftpackageindex.com/lovetodream/oracle-nio">OracleNIO Database Driver Pitched</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
             <a href="https://github.com/lovetodream">Timo Zacherl</a> has recently pitches their <a href="https://swiftpackageindex.com/lovetodream/oracle-nio">Oracle Database Driver</a> for incubation with the SSWG. Support for this database has been notoriously lacking, leaving many enterprise organisations unable to implement Server-Side Swift while keeping their preferred database.
