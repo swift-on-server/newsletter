@@ -64,7 +64,6 @@
             - Joannis
           </mj-text>
 
-
           <mj-divider
             border-color="#DFE3E8"
             border-width="1px"
@@ -103,6 +102,18 @@
             font-size="20px"
             padding-bottom="0"
           >
+            <a href="https://www.douggregor.net/posts/">Swift for C++ Practitioners</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            When you're coming from a C++ background, Swift can be a radically different world. This new 6-part series by <a href="https://sfba.social/@dgregor79">Doug Gregor</a>, member of the Swift Language Steering Group, is a great introduction to using Swift.
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
             <a href="https://forums.swift.org/t/our-journey-with-swift-thus-far-some-notes-and-reflections/70510">A Reflection on Server-Side Swift</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
@@ -122,11 +133,11 @@
             font-size="20px"
             padding-bottom="0"
           >
-            <a href="https://forums.swift.org/t/swift-server-meetup/70488">Swift Server Meetup Announced</a>
+            <a href="https://www.youtube.com/watch?v=FULMRV3wIKg">Swift Server Meetup</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            Sebastien and I have announced announced an <a href="https://www.youtube.com/watch?v=FULMRV3wIKg">online meetup</a> on Server-Side Swift. Starting its first edition on April 24th, this Workgroup-organised meetup is open to anyone interested in Swift on the Server.
-            We're looking forward to seeing you there!
+            Sebastien and Joannis have ran the first quarterly SSWG-organised <a href="https://www.youtube.com/watch?v=FULMRV3wIKg">online meetup</a> on Server-Side Swift. Having taken place on April 24th, we're continuing to see the community grow. There was a lot of interaction in the chat, before and after the event.
+            We're looking forward to seeing you the next edition.
           </mj-text>
 
           <mj-divider
