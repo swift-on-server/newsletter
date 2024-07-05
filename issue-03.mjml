@@ -183,7 +183,7 @@
             >
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          <a href="https://github.com/vapor/jwt-kit/">JWTKit</a> offers robust APIs for signing and verifying JSON Web Tokens (JWTs) using SwiftCrypto. JWTKit enables secure and efficient token management with customizable signing and verification using custom headers. Its flexible parsing and serialization options, along with support for JSON Web Keys (JWK, JWKS), make JWTKit an essential tool for enhancing the security of your Swift applications.
+          <a href="https://github.com/vapor/jwt-kit/">JWTKit</a> offers robust APIs for signing and verifying JSON Web Tokens (JWTs) using SwiftCrypto. JWTKit enables secure and efficient token management with customizable signing and verification using custom headers. It's easy to use, has flexible parsing and serialization options, along with support for JSON Web Keys (JWK, JWKS). This makes JWTKit an essential tool for working with JWTs in Swift.
           </mj-text>
 
     <mj-text
