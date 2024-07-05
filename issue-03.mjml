@@ -168,7 +168,7 @@
             >
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          <a href="https://github.com/hummingbird-project/hummingbird/">Hummingbird</a> is a lightweight, flexible web application framework designed to run on a <a href="https://github.com/apple/swift-nio">SwiftNIO</a>-based server implementation with minimal dependencies. Built on top of modern <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/">Swift concurrency</a> features, version 2 offers enhanced performance and responsiveness. Hummingbird features a powerful router for directing endpoints to their handlers, middleware for request and response processing, and custom encoding/decoding of requests and responses.
+          <a href="https://github.com/hummingbird-project/hummingbird/">Hummingbird</a> is a lightweight, flexible web application framework designed to run on a <a href="https://github.com/apple/swift-nio">SwiftNIO</a>-based server implementation with minimal dependencies. Built on top of modern <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/">Structured Concurrency</a> features, version 2 offers a great performance with an API that's ready for Swift 6. Hummingbird features a powerful new router, a new "Request Context" System in addition to all of the existing and familiar APIs such as Codable support and a Middleware system.
           </mj-text>
           
           <mj-text
