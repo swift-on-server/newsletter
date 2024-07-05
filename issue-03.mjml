@@ -115,7 +115,7 @@
             <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Getting Started with the Static Linux SDK</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          Introducing the <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Swift Static Linux SDK</a>: a powerful tool that lets developers build fully statically linked executables with no external dependencies. This ensures programs run seamlessly on any Linux distribution, relying solely on the Linux system call interface. Compatible with any platform supported by the Swift compiler and package manager, it allows development and testing on macOS. 
+          Introducing the <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Swift Static Linux SDK</a>: a powerful tool that lets developers build fully statically linked executables with no external dependencies. This ensures programs run seamlessly on any Linux distribution, relying solely on the Linux system call interface. With this new tool, you can create Linux binaries from your mac.
           </mj-text>
 
           <mj-divider
