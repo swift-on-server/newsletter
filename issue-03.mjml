@@ -79,7 +79,7 @@
             <a href="https://swiftonserver.com/advanced-async-sequences/">Advanced Async Sequences in Swift</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          AsyncSequences are increasingly prevalent in Server-Side Swift and are becoming more prominent in macOS and iOS apps as well. Similar to other structured concurrency features, AsyncSequences facilitate structured programming, making it easier to reason about your code. To learn more, read Joannis's guide on <a href="https://swiftonserver.com/advanced-async-sequences/">swiftonserver.com</a>.
+          AsyncSequences are increasingly prevalent in Server-Side Swift and are becoming more prominent in macOS and iOS apps as well. Similar to other structured concurrency features, AsyncSequences facilitate structured programming, making it easier to reason about your code. To learn more, read Joannis' guide on <a href="https://swiftonserver.com/advanced-async-sequences/">swiftonserver.com</a>.
           </mj-text>
 
           <mj-text
