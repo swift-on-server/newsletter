@@ -213,7 +213,7 @@
             >
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          <a href="https://github.com/kabiroberai/node-swift">NodeSwift</a> bridges the gap between Swift and Node.js, enabling seamless communication between these two powerful ecosystems. Leverage Swift and SwiftPM to access native macOS functionalities within your Electron applications, and tap into the extensive library of NPM APIs from within your Swift code, whether you’re developing macOS apps, iOS apps, or Vapor servers.
+          <a href="https://github.com/kabiroberai/node-swift">NodeSwift</a> bridges the gap between Swift and Node.js, enabling seamless communication between these two powerful ecosystems. Leverage Swift and SwiftPM to access native macOS features from within Electron applications, or tap into the extensive library of NPM APIs from within your Swift code.
           </mj-text>
 
 
