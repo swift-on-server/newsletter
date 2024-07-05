@@ -91,7 +91,7 @@
             <a href="https://swiftonserver.com/websocket-tutorial-using-swift-and-hummingbird/">WebSocket tutorial using Swift and Hummingbird</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-          Tibor has a brand new tutorial on <a href="https://swiftonserver.com/websocket-tutorial-using-swift-and-hummingbird/">swiftonserver.com</a> about WebSockets and how to use them with the Hummingbird framework in a straightforward, easy-to-follow manner. The first part provides a clear understanding of the WebSocket protocol. Following that, a hands-on example is created using the Hummingbird WebSocket library, demonstrating effective use of this technology.
+          Tibor has a brand new tutorial on <a href="https://swiftonserver.com/websocket-tutorial-using-swift-and-hummingbird/">swiftonserver.com</a> about WebSockets and how to use them with the Hummingbird 2 framework in a straightforward, easy-to-follow manner. The first part provides a clear understanding of the WebSocket protocol. Following that, a hands-on example demonstrates effective use of this technology through the Hummingbird WebSocket library.
           </mj-text>
 
           <mj-text
