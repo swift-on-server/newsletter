@@ -100,7 +100,7 @@
             font-size="20px"
             padding-bottom="0"
           >
-            <a href="https://www.douggregor.net/posts/">Explore the Swift on Server Ecosystem</a>
+            <a href="https://developer.apple.com/videos/play/wwdc2024/10216/">Explore the Swift on Server Ecosystem</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
           Swift is an excellent language for developing server applications, powering critical services across Apple's cloud products. <a href="https://developer.apple.com/videos/play/wwdc2024/10216/">This WWDC session</a> explores essential tooling, delves into the Swift server package ecosystem, demonstrates how to interact with databases, and enhances application observability. <a href="https://github.com/FranzBusch">Franz Busch</a>'s talk will help unlock the full potential of Swift for server-side projects.
