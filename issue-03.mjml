@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-title>Swift on Server Newsletter</mj-title>
+    <mj-preview></mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px
+      11px 0px rgba(0, 0, 0, 0.15); }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link, a { color: inherit; }
+    </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section full-width="full-width" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image
+          src="https://swiftonserver.com/images/logos/logo.png"
+          width="100px"
+          alt="Swift on Server Logo"
+          padding="0"
+          href="https://swiftonserver.com"
+          padding-bottom="20px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5856D7">
+      <mj-column padding="20px">
+        <mj-text color="#ffffff" font-size="32px" align="center">
+          Swift on Server
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section
+        background-color="#fcfcfc"
+        padding-left="15px"
+        padding-right="15px"
+      >
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+          I've been using Swift on the server daily for over four years now, and this year we've seen quite a lot of updates, not just for the server side, but for the whole ecosystem.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          This year at WWDC24, Apple announced <a href="https://www.swift.org/migration/documentation/migrationguide/">Swift 6</a>, the new major version of the programming language, alongside the modern <a href="https://github.com/apple/swift-testing">Swift-Testing</a> framework. They are currently migrating the entire Swift project to a new organization on GitHub called <a href="https://github.com/swiftlang">SwiftLang</a>. In addition, the <a href="https://github.com/swiftlang/vscode-swift">Swift VSCode extension</a> - originally by <a href="https://github.com/adam-fowler">Adam Fowler</a> - is now available under the new organization. It is nice to see Swift becoming a standalone project.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          We have also worked hard on the <a href="https://swiftonserver.com/">swiftonserver.com</a> website, and are very proud of our <a href="https://forums.swift.org/t/swiftinit-org-now-partnering-with-swiftonserver-com/72283">latest integration</a> with the <a href="https://swiftinit.org/">swiftinit.org</a> project. This integration helps validate our examples and provides links to the documentation symbols. 
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            - Tib
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://swiftonserver.com/advanced-async-sequences/">Advanced Async Sequences in Swift</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          AsyncSequences are increasingly prevalent in Server-Side Swift and are becoming more prominent in macOS and iOS apps as well. Similar to other structured concurrency features, AsyncSequences facilitate structured programming, making it easier to reason about your code. To learn more, read Joannis' guide on <a href="https://swiftonserver.com/advanced-async-sequences/">swiftonserver.com</a>.
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://swiftonserver.com/websocket-tutorial-using-swift-and-hummingbird/">WebSocket tutorial using Swift and Hummingbird</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          Tibor has a brand new tutorial on <a href="https://swiftonserver.com/websocket-tutorial-using-swift-and-hummingbird/">swiftonserver.com</a> about WebSockets and how to use them with the Hummingbird 2 framework in a straightforward, easy-to-follow manner. The first part provides a clear understanding of the WebSocket protocol. Following that, a hands-on example demonstrates effective use of this technology through the Hummingbird WebSocket library.
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://developer.apple.com/videos/play/wwdc2024/10216/">Explore the Swift on Server Ecosystem</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          Swift is an excellent language for developing server applications, powering critical services across Apple's cloud products. <a href="https://developer.apple.com/videos/play/wwdc2024/10216/">This WWDC session</a> explores essential tooling, delves into the Swift server package ecosystem, demonstrates how to interact with databases, and enhances application observability. <a href="https://github.com/FranzBusch">Franz Busch</a>'s talk will help unlock the full potential of Swift for server-side projects.
+          </mj-text>
+
+          <mj-text
+            color="#0095ff"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Getting Started with the Static Linux SDK</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          Introducing the <a href="https://www.swift.org/documentation/articles/static-linux-getting-started.html">Swift Static Linux SDK</a>: a powerful tool that lets developers build fully statically linked executables with no external dependencies. This ensures programs run seamlessly on any Linux distribution, relying solely on the Linux system call interface. With this new tool, you can create Linux binaries from your mac.
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+          <mj-text
+            color="#ff0095"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://www.youtube.com/watch?v=UgON3lsCRwo">Swift Server Meetup #2</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          Sebastian hosted the second quarterly SSWG-organized <a href="https://www.youtube.com/watch?v=UgON3lsCRwo">online meetup</a> on June 26th. The event began with Mikaela Caron discussing how to deploy your Vapor app to Fly.io for free using a Dockerfile. This was followed by Joannis and Adam, who explored the recently released version 2 of Hummingbird with a live-coding example. The session saw lively interactions in the chat, both before and after the talks. We look forward to seeing you at the next edition.
+          </mj-text>
+
+          <mj-text
+            color="#ff0095"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a href="https://www.serversideswift.info/">Server-Side Swift Conference</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          <a href="https://www.serversideswift.info/">ServerSide.swift</a> is a framework-independent conference dedicated to learning and sharing knowledge on various server-side Swift topics. Join us on September 26th and 27th at the Science Museum in London, UK, for two days of inspiring talks from some of the brightest minds in the field. The conference promises a packed schedule full of amazing presentations. Keep an eye on the <a href="https://www.serversideswift.info/schedule/">lineup</a> and get ready to be inspired!
+          </mj-text>
+
+          <mj-divider
+            border-color="#DFE3E8"
+            border-width="1px"
+            padding="20px"
+          />
+
+
+          
+          <mj-text
+            color="#00aa95"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/hummingbird-project/hummingbird/releases"
+              >Hummingbird 2 Release Candidate 1</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          <a href="https://github.com/hummingbird-project/hummingbird/">Hummingbird</a> is a lightweight, flexible web application framework designed to run on a <a href="https://github.com/apple/swift-nio">SwiftNIO</a>-based server implementation with minimal dependencies. Built on top of modern <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/">Structured Concurrency</a> features, version 2 offers a great performance with an API that's ready for Swift 6. Hummingbird features a powerful new router, a new "Request Context" System in addition to all of the existing and familiar APIs such as Codable support and a Middleware system.
+          </mj-text>
+          
+          <mj-text
+            color="#00aa95"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/vapor/jwt-kit/releases"
+              >JWTKit 5 Release Candidate 1</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          <a href="https://github.com/vapor/jwt-kit/">JWTKit</a> offers robust APIs for signing and verifying JSON Web Tokens (JWTs) using SwiftCrypto. JWTKit enables secure and efficient token management with customizable signing and verification using custom headers. It's easy to use, has flexible parsing and serialization options, along with support for JSON Web Keys (JWK, JWKS). This makes JWTKit an essential tool for working with JWTs in Swift.
+          </mj-text>
+
+    <mj-text
+            color="#00aa95"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/swiftlang/swiftly"
+              >swiftly</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          <a href="https://github.com/swiftlang/swiftly">swiftly</a> is a powerful CLI tool crafted in Swift, designed to install, manage, and switch between Swift toolchains effortlessly. Installation and setup are straightforward, ensuring you can get started quickly. The command interface strikes a perfect balance between flexibility and simplicity, making <i>swiftly</i> an essential tool for streamlined Swift development.
+          </mj-text>
+
+          <mj-text
+            color="#00aa95"
+            font-weight="bold"
+            font-size="20px"
+            padding-bottom="0"
+          >
+            <a
+              href="https://github.com/kabiroberai/node-swift"
+              >NodeSwift</a
+            >
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+          <a href="https://github.com/kabiroberai/node-swift">NodeSwift</a> bridges the gap between Swift and Node.js, enabling seamless communication between these two powerful ecosystems. Leverage Swift and SwiftPM to access native macOS features from within Electron applications, or tap into the extensive library of NPM APIs from within your Swift code.
+          </mj-text>
+
+
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text color="#637381" font-size="12px" align="center">
+            <a href="https://unbeatable.software">Joannis Orlandos</a> &amp;
+            <a href="https://binarybirds.com">Tibor Bödecs</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-text
+            color="#445566"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+          >
+            You are receiving this email newsletter because you registered with
+            the
+            <a class="footer-link" href="https://swiftonserver.com"
+              >swiftonserver.com</a
+            >
+            newsletter. <br />
+            (previously
+            <a class="footer-link" href="https://theswiftdev.com"
+              >theswiftdev.com</a
+            >
+            newsletter)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
