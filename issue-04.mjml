@@ -87,9 +87,6 @@
             Sebastien and Joannis have ran two more quarterly SSWG-organised online meetups, both of which were well received.
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            The <a href="https://www.youtube.com/watch?v=UgON3lsCRwo">second edition</a> covers running on Fly.io by <a href+"https://github.com/mikaelacaron">Mikaela Caron</a> - followed by an introduction to Hummingbird 2 by <a href="https://github.com/adam-fowler">Adam Fowler</a> and myself.
-          </mj-text>
-          <mj-text color="#637381" font-size="16px">
             The <a href="https://www.youtube.com/watch?v=kc-a8_DFXgE">third edition</a> features a great Swift WebAssembly talk by <a href="https://github.com/kateinoigakukun">Yuta Saito</a> followed by a talk on Swift 6 by SSWG member and Apple employee <a href="https://github.com/ktoso">Konrad Malawski</a>.
           </mj-text>
 
