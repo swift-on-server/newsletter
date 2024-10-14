@@ -1,0 +1,145 @@
+<mjml>
+  <mj-head>
+    <mj-title>Swift on Server Newsletter</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link,
+      a {
+        color: inherit;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #888888
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section full-width="full-width" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://swiftonserver.com/images/logos/logo.png" width="100px" alt="Swift on Server Logo" padding="0" href="https://swiftonserver.com" padding-bottom="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5856D7">
+      <mj-column padding="20px">
+        <mj-text color="#ffffff" font-size="32px" align="center">
+          Swift on Server
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#fcfcfc" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            For those that missed the <a href="https://www.serversideswift.info/">Swift Server Conference</a>, I've got good news and better news!
+            The good news is that the recordings are <a href="https://www.serversideswift.info/videos/">already live</a>!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            In better news, the conference was full of new announcements! It's clear that Apple has expanded their efforts tremendously. The ecosystem is thriving more and more by the day.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            - Joannis
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://hummingbird.codes/news/hummingbird-2">Swift 6 is released</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            This news can't have gone by you. But in case you missed it - Swift 6 is now officially released!
+            Swift 6 now includes complete concurrency checking, making Swift backends <em>even more reliable</em> than they were!
+          </mj-text>
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://hummingbird.codes/news/hummingbird-2">Hummingbird 2 is out!</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The long awaited release of the Hummingbird web-framework is out now!
+            As I demonstrated in <a href="https://youtu.be/FHO_BfidQlQ">this talk</a>, it's jam packed with both feature- and performance improvements. But most importantly, it's a framework designed for Swift 6!
+          </mj-text>
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://blog.vapor.codes/posts/the-future-of-vapor/">Vapor 5 Development Started</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Now that Swift 6 is out, the Vapor core team has announced their move!
+            In this blog post, <a href="https://github.com/0xTim">Tim</a> elaborates the design goals and next steps going forward.
+          </mj-text>
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://swifttoolkit.dev/posts/cli-question">Interactive Input in CLI Tools</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Swift is becoming more prolific in systems programming. <a href="https://x.com/SwiftToolkit">Swift Toolkit</a> has a great post on how to handle interactive input in CLI tools.
+            Definitely check the site out for more Swift (on Server) content.
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=kc-a8_DFXgE">Swift Server Meetup</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <a href="https://github.com/sebsto">Sebastien</a> and <a href="https://github.com/joannis">Joannis</a> have ran two more quarterly SSWG-organised online meetups, both of which were well received.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The <a href="https://www.youtube.com/watch?v=kc-a8_DFXgE">third edition</a> features a great Swift WebAssembly talk by <a href="https://github.com/kateinoigakukun">Yuta Saito</a> followed by a talk on Swift 6 by SSWG member and Apple employee <a href="https://github.com/ktoso">Konrad Malawski</a>.
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#00aa95" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://github.com/swiftlang/swift-java">Swift Java Interoperability</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            During the keynote at the Swift Server Conference, Apple shared a new Java interoperability library.
+            Apple's use is to bride existing Java code to- and from Swift. I'm even more excited for its future applications in bringing Swift interop to Android!
+          </mj-text>
+
+          <mj-text color="#00aa95" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=JmrnE7HUaDE">Leveraging Structured Concurrency</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            One important topic for Swift 6 is further emphasis on <em>structured concurrency</em>. This talk by <a href="https://www.serversideswift.info/speakers/franz-busch/">Franz Busch</a> (SSWG and Apple) helps you understand some essential patterns for structured concurrency.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text color="#637381" font-size="12px" align="center">
+            <a href="https://unbeatable.software">Joannis Orlandos</a> &amp;
+            <a href="https://binarybirds.com">Tibor Bödecs</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            You are receiving this email newsletter because you registered with
+            the
+            <a class="footer-link" href="https://swiftonserver.com">swiftonserver.com</a>
+            newsletter. <br />
+            (previously
+            <a class="footer-link" href="https://theswiftdev.com">theswiftdev.com</a>
+            newsletter)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
