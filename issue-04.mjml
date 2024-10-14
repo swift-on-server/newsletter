@@ -78,13 +78,21 @@
             In this blog post, <a href="https://github.com/0xTim">Tim</a> elaborates the design goals and next steps going forward.
           </mj-text>
 
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://swifttoolkit.dev/posts/cli-question">Interactive Input in CLI Tools</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Swift is becoming more prolific in systems programming. <a href="https://x.com/SwiftToolkit">Swift Toolkit</a> has a great post on how to handle interactive input in CLI tools.
+            Definitely check the site out for more Swift (on Server) content.
+          </mj-text>
+
           <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
 
           <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
             <a href="https://www.youtube.com/watch?v=kc-a8_DFXgE">Swift Server Meetup</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            Sebastien and Joannis have ran two more quarterly SSWG-organised online meetups, both of which were well received.
+            <a href="https://github.com/sebsto">Sebastien</a> and <a href="https://github.com/joannis">Joannis</a> have ran two more quarterly SSWG-organised online meetups, both of which were well received.
           </mj-text>
           <mj-text color="#637381" font-size="16px">
             The <a href="https://www.youtube.com/watch?v=kc-a8_DFXgE">third edition</a> features a great Swift WebAssembly talk by <a href="https://github.com/kateinoigakukun">Yuta Saito</a> followed by a talk on Swift 6 by SSWG member and Apple employee <a href="https://github.com/ktoso">Konrad Malawski</a>.
@@ -98,6 +106,13 @@
           <mj-text color="#637381" font-size="16px">
             During the keynote at the Swift Server Conference, Apple shared a new Java interoperability library.
             Apple's use is to bride existing Java code to- and from Swift. I'm even more excited for its future applications in bringing Swift interop to Android!
+          </mj-text>
+
+          <mj-text color="#00aa95" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=JmrnE7HUaDE">Leveraging Structured Concurrency</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            One important topic for Swift 6 is further emphasis on <em>structured concurrency</em>. This talk by <a href="https://www.serversideswift.info/speakers/franz-busch/">Franz Busch</a> (SSWG and Apple) helps you understand some essential patterns for structured concurrency.
           </mj-text>
         </mj-column>
       </mj-section>
