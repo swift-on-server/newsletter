@@ -1,0 +1,168 @@
+<mjml>
+  <mj-head>
+    <mj-title>Swift on Server Newsletter</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link,
+      a {
+        color: inherit;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #888888
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section full-width="full-width" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://swiftonserver.com/images/logos/logo.png" width="100px" alt="Swift on Server Logo" padding="0" href="https://swiftonserver.com" padding-bottom="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5856D7">
+      <mj-column padding="20px">
+        <mj-text color="#ffffff" font-size="32px" align="center">
+          Swift on Server
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#fcfcfc" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            For those that missed the <a href="https://www.serversideswift.info/">Swift Server Conference</a> 2025, I've got great news!
+            The recordings are <a href="hhttps://www.youtube.com/@swiftserverconf">already going up</a>!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The conference was, again, full of new announcements! It's clear that Apple is tripling down on Swift on Server. Tibor and I sponsored the conference,
+            and plan to make the ecosystem even greater next year.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            I've recently joined <a href="https://wendy.sh">Wendy Labs</a>, where we're working on bringing Embedded Linux development to the masses.
+            We're building tonnes of tools for Swift developers, working with cool new technologies such as Apple's <a href="https://github.com/apple/containerization">ContainerOS</a>.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            In addition, we've founded an <a href="https://www.swift.org/android-workgroup/">Swift Android Workgroup</a> this year, and we're working hard on bringing Swift to more places still!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            - Joannis
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=RNVMM1p7jgU">Valkey Driver Released</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Redis is a majorly important database for many applications. Valkey is a fork of Redis by the Linux foundation that has taken off recently.
+            With the move to Valkey, <a href="https://github.com/adam-fowler">Adam Fowler</a> has released a <a href="https://valkey.io/blog/valkey-swift/">Valkey driver</a> for Swift!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            This new driver, also covered in <a href="https://www.swifttoolkit.dev/posts/valkey-package">this post</a>, is a very well designed, modern and performant client for redis and valkey.
+            If you're using RedisStack today, I urge you to give this <a href="https://github.com/valkey-io/valkey-swift">new driver</a> a try.
+          </mj-text>
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://github.com/apple/swift-temporal-sdk">Swift Temporal SDK</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <a href="https://temporal.io/">Temporal</a> is a popular tool for defining workflows that are durable - extremely resilient to failure.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            At <a href="https://www.serversideswift.info/">Server Side Swift conference</a>, Apple and Temporal announced a new Swift SDK to help you write really resilient code.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            At high level, they're just "async" functions that are made extremely resilient and deterministic by the library.
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
+            Swift Server Meetups
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <a href="https://github.com/sebsto">Sebastien</a> and <a href="https://github.com/joannis">Joannis</a> have ran another few quarterly SSWG online meetups.
+            We continue being happy with the attendance, and continued viewership in the months that follow.
+          </mj-text>
+          <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=Kis9rrtsnwM">Meetup #4</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Edition 4 started off with a talk by Andrew Barba on deploying your code to the cloud using an Infastructure as Code project in Swift.
+            Natan Rolnik from <a href="https://www.swifttoolkit.dev/">Swift Toolkit.dev</a> (do visit his blog!), talked about Hummingbird on AWS Lambda.
+          </mj-text>
+          <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=0JrLkHgZa-k">Meetup #5</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            This edition features a talk on Embedded Swift by Juraj Michálek from <a href="https://www.espressif.com/">Espressif Systems</a> who make the ESP32 boards.
+            A very technically deep talk!
+          </mj-text>
+          <mj-text color="#ff0095" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=96IQAA7Nl8E">Edition #6</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <a href="https://youtube.com/watch?v=96IQAA7Nl8E&t=982s">Swift Java for Android</a> by Mads Odgaard covers how to start your Android Journey with Swift.
+            Finally, Vojtech shows us how <a href="https://culturedcode.com/things/">Things</a> uses Swift on Server to power their ecosystem of apps.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            We're looking to host another meetup the <em>9th of December 2025</em>, so stay tuned!
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#00aa95" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://www.youtube.com/watch?v=EIGl6GOo210">Pierluigi's Swift on Android Talk</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Not only Mads, but also Pierluigi Cifani talked about Swift on Android, at <a href="https://nsspain.com/">NSSpain</a>.
+            He made a brilliant case for why Swift on Android is a good idea, and how his team is using it in production today.
+          </mj-text>
+
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+
+          <mj-text color="#637381" font-size="16px">
+            There's so much more to talk about, but I can only fit so much in a newsletter. I'll be sure to keep you updated with the latest and greatest in the Swift ecosystem.
+            If you're going to <a href="https://do-ios.com">Do iOS</a> in Amsterdam, come and say hi!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text color="#637381" font-size="12px" align="center">
+            <a href="https://wendy.sh">Joannis Orlandos</a> &amp;
+            <a href="https://binarybirds.com">Tibor Bödecs</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            You are receiving this email newsletter because you registered with
+            the
+            <a class="footer-link" href="https://swiftonserver.com">swiftonserver.com</a>
+            newsletter. <br />
+            (previously
+            <a class="footer-link" href="https://theswiftdev.com">theswiftdev.com</a>
+            newsletter)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
