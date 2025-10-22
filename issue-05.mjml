@@ -130,6 +130,22 @@
             Not only Mads, but also Pierluigi Cifani talked about Swift on Android, at <a href="https://nsspain.com/">NSSpain</a>.
             He made a brilliant case for why Swift on Android is a good idea, and how his team is using it in production today.
           </mj-text>
+          
+          <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
+          
+          <mj-text color="#F05138" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://theswiftdev.gumroad.com/l/learn-to-code-using-swift">Learn To Code Using Swift</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Tibor and Kitti made a programming book for absolute beginners. The book builds progressively from the basics to advanced concepts without expecting any prior programming experience — it clearly explains every idea, definition, and code snippet. 
+          </mj-text>
+          
+          <mj-text color="#F05138" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://learn-swift.com/">Learn Swift By Examples</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            They also published a website, with hands-on introduction to Swift including clear, practical examples. All code snippets run with the latest major Swift release, ensuring compatibility and relevance for real projects. 
+          </mj-text>
 
           <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
 
