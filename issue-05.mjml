@@ -50,11 +50,7 @@
             and plan to make the ecosystem even greater next year.
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            I've recently joined <a href="https://wendy.sh">Wendy Labs</a>, where we're working on bringing Embedded Linux development to the masses.
-            We're building tonnes of tools for Swift developers, working with cool new technologies such as Apple's <a href="https://github.com/apple/containerization">ContainerOS</a>.
-          </mj-text>
-          <mj-text color="#637381" font-size="16px">
-            In addition, we've founded an <a href="https://www.swift.org/android-workgroup/">Swift Android Workgroup</a> this year, and we're working hard on bringing Swift to more places still!
+            In addition, we've started the <a href="https://www.swift.org/android-workgroup/">Swift Android Workgroup</a> this year, and we're working hard on bringing Swift to more places still!
           </mj-text>
           <mj-text color="#637381" font-size="16px">
             - Joannis
@@ -85,6 +81,16 @@
           </mj-text>
           <mj-text color="#637381" font-size="16px">
             At high level, they're just "async" functions that are made extremely resilient and deterministic by the library.
+          </mj-text>
+
+          <mj-text color="#0095ff" font-weight="bold" font-size="20px" padding-bottom="0">
+            <a href="https://github.com/awslabs/swift-aws-lambda-runtime">AWS Lambda Runtime V2</a>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            The new AWS Lambda Runtime V2 is out! It's a major update to the runtime, adding support for Swift 6, structured concurrency and more!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            There is already <a href="https://www.swifttoolkit.dev/posts/lambda-v2">a good tutorial</a> to get you started. Hummingbird 2 has also <a href="https://github.com/hummingbird-project/hummingbird-lambda">adopted support</a> for the new runtime.
           </mj-text>
 
           <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
@@ -137,14 +143,10 @@
             <a href="https://theswiftdev.gumroad.com/l/learn-to-code-using-swift">Learn To Code Using Swift</a>
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            Tibor and Kitti made a programming book for absolute beginners. The book builds progressively from the basics to advanced concepts without expecting any prior programming experience — it clearly explains every idea, definition, and code snippet. 
-          </mj-text>
-          
-          <mj-text color="#F05138" font-weight="bold" font-size="20px" padding-bottom="0">
-            <a href="https://learn-swift.com/">Learn Swift By Examples</a>
+            Tibor and Kitti made a programming book for absolute beginners. The book builds progressively from the basics to advanced concepts without expecting any prior programming experience — it clearly explains every idea, definition, and code snippet.
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            They also published a website, with hands-on introduction to Swift including clear, practical examples. All code snippets run with the latest major Swift release, ensuring compatibility and relevance for real projects. 
+            They also published a <a href="https://learn-swift.com/">website</a>, with hands-on introduction to Swift including clear, practical examples. All code snippets run with the latest major Swift release, ensuring compatibility and relevance for real projects. 
           </mj-text>
 
           <mj-divider border-color="#DFE3E8" border-width="1px" padding="20px" />
@@ -152,6 +154,9 @@
           <mj-text color="#637381" font-size="16px">
             There's so much more to talk about, but I can only fit so much in a newsletter. I'll be sure to keep you updated with the latest and greatest in the Swift ecosystem.
             If you're going to <a href="https://do-ios.com">Do iOS</a> in Amsterdam, come and say hi!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            - Joannis
           </mj-text>
         </mj-column>
       </mj-section>
